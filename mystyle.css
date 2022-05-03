@@ -1,3 +1,17 @@
 body {
-  background-color: #D3D3F8
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background-color: #D3D3F8
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  margin: 4rem auto;
+  display: block;
 }
