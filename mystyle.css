@@ -23,6 +23,20 @@ main {
   display: flex;
 }
 
+img {
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+}
+
+#ragtime_photo {
+  object-position: 75% 15%;
+}
+
+#film_photo{
+  object-position: 72.5%;
+}
+
 #resume {
   display: flex;
   justify-content: center;
