@@ -7,6 +7,13 @@ body {
     background-color: #D3D3F8
 }
 
+#topofpage {
+  background-color: #9595BB;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
 #title {
   font-family: 'Roboto Slab', serif;
   font-size: 2.75em;
@@ -15,6 +22,11 @@ body {
 #description {
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
+}
+
+#content {
+  display: block;
+  margin: 0px;
 }
 
 .captions {
@@ -37,38 +49,65 @@ body {
 
 .head1 {
   font-family: 'Roboto Slab', serif;
-  font-size: 2.5em;
+  font-size: 2.7em;
   font-weight: bold;
   color: #33336B;
 }
 
 .head2{
   font-family: 'Roboto Slab', serif;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 500;
-  color: #33336B;
+  color: #595959;
   padding: 10px;
 }
 
 .head3 {
-  font-size: 1.5em;
+  font-size: 1.75em;
+}
+
+.head3 a {
+  color: #33336B;
 }
 
 .dek {
-  padding: 10px;
+  padding-bottom: 20px;
 }
 
 nav {
-  margin: 50px;
+  margin: 0px;
+  display: block;
+  background-color: #434368;
+  width: 100%;
+}
+
+nav ul {
+  padding: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  list-style-type: none;
+  color: white;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
 }
 
 img {
-  height: 400px;
-  width: 500px;
+  width: 100%;
+  height: auto;
+  max-height: 550px;
+  max-width: 650px;
+  min-height: 300px;
   object-fit: cover;
+}
+
+p {
+  margin-inline-start: 3em;
+  margin-inline-end: 3rem;
 }
 
 #ragtime_photo {
@@ -82,4 +121,11 @@ img {
 #resume {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 800px;) {
+
+  .dek {
+    margin-inline-start: 5em;
+    margin-inline-end: 5rem;
 }
