@@ -27,6 +27,7 @@ section.sect2{
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+  width: 100%;
 }
 
 #title {
@@ -46,19 +47,20 @@ section.sect2{
 
 .captions {
   font-family: 'Roboto', sans-serif;
-  font-size: .8em;
+  font-size: .8rem;
   font-style: italic;
-  width: 500px;
   margin: 0 auto;
-  text-align: justify;
+  text-align: center;
   padding-top: 10px;
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
 }
 
 .credit {
-  font-size: .8em;
-  width: 500px;
-  margin: 0 auto;
-  text-align: justify;
+  font-size: .8rem;
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
+  text-align: center;
   padding-top: 10px;
 }
 
@@ -96,6 +98,7 @@ section.sect2{
 
 .dek {
   padding-bottom: 20px;
+  font-size: 1rem;
 }
 
 ul {
@@ -121,6 +124,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+  font-size: 1.25em;
   color: white;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -184,9 +188,10 @@ p {
 footer {
   background-color: #9595BB;
   width: 100%;
-  padding: 15px;
   text-align: center;
   font-size: 1.75em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer a{
