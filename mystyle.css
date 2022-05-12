@@ -17,12 +17,45 @@ body {
   font-size: 2em;
 }
 
+.captions {
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  font-style: italic;
+  width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.credit {
+  font-size: .8em;
+  width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 10px;
+}
+
 .head1 {
   font-family: 'Roboto Slab', serif;
   font-size: 2.5em;
   font-weight: bold;
   color: #33336B;
+}
 
+.head2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #33336B;
+  padding: 10px;
+}
+
+.head3 {
+  font-size: 1.5em;
+}
+
+.dek {
+  padding: 10px;
 }
 
 nav {
