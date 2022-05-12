@@ -64,14 +64,30 @@ body {
 
 .head3 {
   font-size: 1.75em;
+  color: #33336B;
 }
 
 .head3 a {
   color: #33336B;
 }
 
+.head4 {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #595959;
+}
+
 .dek {
   padding-bottom: 20px;
+}
+
+ul {
+  text-align: center;
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-inline-start: 3em;
+  margin-inline-end: 3rem;
+  padding-inline-start: 0;
 }
 
 nav {
@@ -89,6 +105,8 @@ nav ul {
   align-items: center;
   list-style-type: none;
   color: white;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 nav a{
@@ -106,8 +124,8 @@ img {
 }
 
 p {
-  margin-inline-start: 3em;
-  margin-inline-end: 3rem;
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
 }
 
 #ragtime_photo {
@@ -119,13 +137,12 @@ p {
 }
 
 #resume {
-  display: flex;
-  justify-content: center;
+  object-position: center;
 }
 
 @media (max-width: 800px;) {
 
   .dek {
     margin-inline-start: 5em;
-    margin-inline-end: 5rem;
+    margin-inline-end: 5em;
 }
