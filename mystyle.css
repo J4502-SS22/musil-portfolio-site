@@ -7,6 +7,21 @@ body {
     background-color: #D3D3F8
 }
 
+section {
+  display: flex;
+}
+
+section.sect1{
+  align-items: center;
+  justify-content: space-around;
+}
+
+section.sect2{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #topofpage {
   background-color: #9595BB;
   display: flex;
@@ -52,6 +67,8 @@ body {
   font-size: 2.7em;
   font-weight: bold;
   color: #33336B;
+  display: flex;
+  justify-content: center;
 }
 
 .head2{
@@ -128,16 +145,54 @@ p {
   margin-inline-end: 5em;
 }
 
-#ragtime_photo {
+#profile {
+  display: flex;
+  margin: 35px;
+  margin-right: 0px;
+  padding-left: 100px;
+  justify-content: flex-start;
+  width: 400px;
+  height: 400px;
+}
+
+.intro-text {
+    font-size: 1.25em;
+    text-align: left;
+}
+
+#contact {
+  font-size: 1.25em;
+  margin: auto;
+  padding: 25px;
+  padding-top: 0px;
+  align-items: center;
+  list-style-type: none;
+}
+
+#ragtime-photo {
   object-position: 75% 15%;
 }
 
-#film_photo{
+#film-photo{
   object-position: 72.5%;
 }
 
 #resume {
   object-position: center;
+}
+
+footer {
+  background-color: #9595BB;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+footer a{
+  text-decoration: none;
+  color: #33336B;
+  font-weight: 800;
 }
 
 @media (max-width: 800px;) {
