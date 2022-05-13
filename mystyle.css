@@ -135,13 +135,17 @@ nav a{
   text-decoration: none;
 }
 
+nav a:hover{
+  color: blacks;
+}
+
 img {
   width: 100%;
   height: auto;
   max-height: 550px;
   max-width: 650px;
   min-height: 300px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 p {
@@ -151,12 +155,10 @@ p {
 
 #profile {
   display: flex;
-  margin: 35px;
+  margin: 50px;
   margin-right: 0px;
   padding-left: 100px;
   justify-content: flex-start;
-  width: 400px;
-  height: 400px;
 }
 
 .intro-text {
@@ -174,7 +176,6 @@ p {
 }
 
 #ragtime-photo {
-  object-position: 75% 15%;
 }
 
 #film-photo{
@@ -192,6 +193,7 @@ footer {
   font-size: 1.75em;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0px;
 }
 
 footer a{
@@ -200,9 +202,62 @@ footer a{
   font-weight: 800;
 }
 
-@media (max-width: 800px;) {
+@media (max-width: 980px) {
+
+  body {
+    width: 100%;
+  }
 
   .dek {
     margin-inline-start: 5em;
     margin-inline-end: 5em;
+}
+
+#topofpage {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#title {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+#description {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+ }
+
+ li {
+   width: 100%;
+   border-top: none;
+   border-bottom: none;
+ }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+#contact {
+  font-size: 2.5rem;
+}
+
+  nav li{
+    font-size: 2.75rem;
+    padding: 20px;
+  }
 }
